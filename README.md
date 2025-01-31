@@ -1,2 +1,3 @@
-# Python.ex
- Repositório para exercicios py
+# Python.exercícios
+
+ Repositório para exercícios py
