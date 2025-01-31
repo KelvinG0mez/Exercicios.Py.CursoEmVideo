@@ -1,0 +1,14 @@
+# DEFINIMOS O ACUMULADOR E O CONTADOR
+soma = 0
+cont = 0
+# PEDIMOS PARA QUE NOS MOSTRASE DO 3 AO 500, PULANDO DE 6 EM 6
+#DESCARTANDO A ANALISE DE SE ELE É OU NAO IMPAR E DIVISIVEL POR 3
+for c in range(3 ,500, 6):
+    #USAMOS PARA ACUMULAR E SOMAR TODOS NUMEROS QUE FORAM APRESNETADOS E CONTAR
+    soma += c
+    cont += 1
+
+print('A soma de todos os {} valores solicitados é de {}'.format(cont, soma))
+
+'''PODERIAMOS USAR O (IF C % 3 == 0)
+   ABAIXO DO FOR PARA ANALIZAR TAMBEM   '''
